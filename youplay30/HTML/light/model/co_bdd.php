@@ -1,4 +1,4 @@
 <?php
-require_once "core/functions.php";
+require_once "./core/functions.php";
 
-dbConnect('flux rss');
+$bdd = dbConnect('m2l');
