@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-
-<!-- Mirrored from html.nkdev.info/youplay/light/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 May 2016 12:42:50 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,16 +37,16 @@
             <div>
                 <div class="container align-center">
                     <div class="youplay-form">
-                        <h1>Login</h1>
+                        <h1>Connexion</h1>
 
                         <form action="#" method ="post">
                             <div class="youplay-input">
-                                <input type="text" name="login" placeholder="Login">
+                                <input type="text" name="email" placeholder="Email">
                             </div>
                             <div class="youplay-input">
-                                <input type="password" name="mdp" placeholder="Password">
+                                <input type="password" name="mdp" placeholder="Mot de passe">
                             </div>
-                            <button class="btn btn-default db" name="submit">Login</button>
+                            <button class="btn btn-default db" name="submit">Se connecter</button>
                         </form>
                     </div>
                 </div>

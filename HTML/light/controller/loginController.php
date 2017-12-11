@@ -3,21 +3,21 @@
 <?php
     if(isset($_POST['submit'])){
         $email = $_POST['email'];
-        $mdp = sha1($_POST['mdp']);
+        $mdp = $_POST['mdp'];
 
         $reponse = getUsers($email, $mdp);
         if($reponse && $reponse[0])
         {
             $user = $reponse[0];
-            switch($user['lvl']){
-                case 1:
+            switch($user['est_chef']){
+                case 0:
                     $_SESSION['id_s'] = $user['id_s'];
                     $_SESSION['email'] = $user['email'];
                     $_SESSION['is_admin'] = false;
                     $_SESSION['connecte'] = true; // permet d'activer la session connectée
-                    header("Location:accueilController.php"); // redirection après connexion
+                    header('Location:accueilController');// redirection après connexion
                     break;
-                case 2:
+                case 1:
                     $_SESSION['id_s'] = $user['id_s'];
                     $_SESSION['email'] = $user['email'];
                     $_SESSION['is_admin'] = true;
@@ -39,7 +39,7 @@ if(isset($_COOKIE['auth']) && !isset($_SESSION['auth'])){
     $auth = explode('-----',$auth);
 
 
-    $donnee = getId();
+    $donnee = getId($auth);
 
     $key = sha1($donnee['email'].$donnee['mdp'].$_SERVER['REMOTE_ADDR']);
     if($key == $auth[1]){

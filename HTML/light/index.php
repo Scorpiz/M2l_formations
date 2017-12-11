@@ -11,7 +11,7 @@
     define('CORE',ROOT.DS.'core');
 
     if(!isset($_SESSION['id_s'])) {
-//        ²
+//
         header("Location:controller/loginController.php");
 
         if (!isset($_GET['p']) || $_GET['p'] == "") {
