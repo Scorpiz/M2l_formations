@@ -2,10 +2,226 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2ea13c7-7e16-4e89-b944-5558b7976c5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sb-admin.css" afterPath="$PROJECT_DIR$/assets/css/sb-admin.css" />
-      <change beforePath="$PROJECT_DIR$/view/accueilView.php" afterPath="$PROJECT_DIR$/view/accueilView.php" />
-      <change beforePath="$PROJECT_DIR$/view/headerView.php" afterPath="$PROJECT_DIR$/view/headerView.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/footerController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/headerController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/headerModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/footerView.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/headerView.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Documentations/Readme.url" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/HexagonProgress/jquery.hexagonprogress.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/bootstrap-sweetalert/lib/sweet-alert.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/bootstrap-sweetalert/lib/sweet-alert.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/bootstrap-validator/dist/validator.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/imagesloaded/imagesloaded.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/isotope/dist/isotope.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/jarallax/dist/jarallax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/jquery.countdown/dist/jquery.countdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/jquery/dist/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/magnific-popup/dist/magnific-popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/owl.carousel/dist/assets/owl.video.play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/owl.carousel/dist/owl.carousel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/smoothscroll-for-websites/SmoothScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/social-likes/dist/social-likes.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/bower_components/social-likes/dist/social-likes_flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/arrow_left2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/arrow_right2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/arrowleft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/arrowright.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/boxed_bgtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/bullet_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/bullets.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/bullets2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/coloredbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/gridtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/gridtile_3x3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/gridtile_3x3_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/gridtile_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/large_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/large_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/navigdots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/navigdots_bgtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/shadow1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/shadow2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/shadow3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/small_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/small_left_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/small_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/small_right_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/timer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/css/settings.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/images/gradient/g30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/images/gradient/g40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/js/jquery.themepunch.revolution.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/js/jquery.themepunch.tools.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/youplay/css/youplay-anime.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/youplay/css/youplay-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/youplay/css/youplay-shooter.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/youplay/css/youplay.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/assets/youplay/js/youplay.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/HexagonProgress/jquery.hexagonprogress.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/bootstrap-sweetalert/lib/sweet-alert.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/bootstrap-sweetalert/lib/sweet-alert.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/bootstrap-validator/dist/validator.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/imagesloaded/imagesloaded.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/isotope/dist/isotope.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/jarallax/dist/jarallax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/jquery.countdown/dist/jquery.countdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/jquery/dist/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/magnific-popup/dist/magnific-popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/owl.carousel/dist/assets/owl.video.play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/owl.carousel/dist/owl.carousel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/smoothscroll-for-websites/SmoothScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/social-likes/dist/social-likes.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/bower_components/social-likes/dist/social-likes_flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/css/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/avatar-user-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/avatar-user-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/avatar-user-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/avatar-user-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/banner-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/banner-blog-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/banner-broken-age.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/clan-ehome.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/clan-fnatic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/clan-navi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/clan-skt-t1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/clan-team-secret.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/clan-virtus-pro.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/clan-youplay.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/dummy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/footer-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-botanicula-2-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-botanicula-2-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-botanicula-3-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-botanicula-3-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-botanicula-4-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-botanicula-4-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-botanicula-5-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-botanicula-5-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-botanicula-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-botanicula-6-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-botanicula-6-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-broken-age-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-brothers-a-tale-of-two-sons-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-deponia-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-dream-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-dreamfall-chapters-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-flow-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-flower-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-journey-1400x460.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-journey-2-1000x660.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-journey-2-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-journey-3-1280x720.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-journey-3-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-journey-4-2200x1022.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-journey-4-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-journey-5-1100x619.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-journey-5-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-journey-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-journey-6-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-journey-6-800x450.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-journey-7-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-machinarium-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-map-dust.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-map-mirage.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-mirrormoon-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-no-mans-sky-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-proteus-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-road-no-taken-1400x788.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-road-no-taken-2-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-road-no-taken-2-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-road-no-taken-3-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-road-no-taken-3-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-road-no-taken-4-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-road-no-taken-4-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-road-no-taken-5-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-road-no-taken-5-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-road-no-taken-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-road-no-taken-6-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-road-no-taken-6-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-road-no-taken-7-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-road-no-taken-7-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/game-world-of-goo-500x375.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/logo-broken-age-400x197.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/partner-logo-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/partner-logo-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/partner-logo-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/partner-logo-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/partner-logo-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/partner-logo-6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/partner-logo-7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/partner-logo-8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/user-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/images/user-photo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/arrow_left2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/arrow_right2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/arrowleft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/arrowright.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/boxed_bgtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/bullet_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/bullets.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/bullets2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/coloredbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/gridtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/gridtile_3x3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/gridtile_3x3_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/gridtile_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/large_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/large_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/navigdots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/navigdots_bgtile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/shadow1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/shadow2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/shadow3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/small_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/small_left_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/small_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/small_right_boxed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/assets/timer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/css/settings.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/images/gradient/g30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/images/gradient/g40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/js/jquery.themepunch.revolution.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/plugins/slider-revolution/examples&amp;source/rs-plugin/js/jquery.themepunch.tools.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/youplay/css/youplay-anime.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/youplay/css/youplay-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/youplay/css/youplay-shooter.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/youplay/css/youplay.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/assets/youplay/js/youplay.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/controller/accueilController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/controller/loginController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/core/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/logout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/model/accueilModel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/model/co_bdd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/model/loginModel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/view/accueilView.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/light/view/loginView.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,31 +232,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="headerView.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/headerView.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="721">
+              <caret line="216" column="58" lean-forward="false" selection-start-line="216" selection-start-column="58" selection-end-line="216" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="accueilView.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/accueilView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="74" column="61" lean-forward="false" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
+            <state relative-caret-position="644">
+              <caret line="31" column="63" lean-forward="false" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/loginController.php">
+      <file leaf-file-name="accueilController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/accueilController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sb-admin.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/sb-admin.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12220">
-              <caret line="470" column="1" lean-forward="false" selection-start-line="470" selection-start-column="1" selection-end-line="470" selection-end-column="1" />
+            <state relative-caret-position="161">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,11 +265,21 @@
       <file leaf-file-name="accueilModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/accueilModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            <state relative-caret-position="69">
+              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding>
-                <marker date="1518795613811" expanded="true" signature="110:231" ph="SELECT F.con... participer" />
+                <marker date="1518451819431" expanded="true" signature="110:231" ph="SELECT F.con... participer" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footerView.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/footerView.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="23" column="92" lean-forward="false" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,8 +290,6 @@
     <findStrings>
       <find>a {</find>
       <find>blank p</find>
-      <find>white</find>
-      <find>card card-block</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,11 +309,11 @@
         <option value="$PROJECT_DIR$/model/headerModel.php" />
         <option value="$PROJECT_DIR$/controller/footerController.php" />
         <option value="$PROJECT_DIR$/controller/headerController.php" />
-        <option value="$PROJECT_DIR$/view/footerView.php" />
-        <option value="$PROJECT_DIR$/controller/accueilController.php" />
-        <option value="$PROJECT_DIR$/model/accueilModel.php" />
-        <option value="$PROJECT_DIR$/assets/css/sb-admin.css" />
         <option value="$PROJECT_DIR$/view/headerView.php" />
+        <option value="$PROJECT_DIR$/view/footerView.php" />
+        <option value="$PROJECT_DIR$/assets/css/sb-admin.css" />
+        <option value="$PROJECT_DIR$/model/accueilModel.php" />
+        <option value="$PROJECT_DIR$/controller/accueilController.php" />
         <option value="$PROJECT_DIR$/view/accueilView.php" />
       </list>
     </option>
@@ -128,7 +352,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,13 +396,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -214,13 +438,6 @@
       <workItem from="1518370530116" duration="2353000" />
       <workItem from="1518437499662" duration="1082000" />
       <workItem from="1518440188221" duration="10192000" />
-      <workItem from="1518617927943" duration="457000" />
-      <workItem from="1518619693053" duration="3479000" />
-      <workItem from="1518691955069" duration="1180000" />
-      <workItem from="1518792583971" duration="87000" />
-      <workItem from="1518795095043" duration="615000" />
-      <workItem from="1520428087319" duration="6192000" />
-      <workItem from="1520524709236" duration="2558000" />
     </task>
     <task id="LOCAL-00001" summary="TODO : Redirection après connexion">
       <created>1512990356526</created>
@@ -233,14 +450,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30816000" />
+    <option name="totallyTimeSpent" value="16248000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15260416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1953125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -254,6 +470,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -273,97 +490,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/view/footerView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="23" column="92" lean-forward="false" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/accueilView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1014">
-          <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/headerView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5616">
-          <caret line="216" column="58" lean-forward="false" selection-start-line="216" selection-start-column="58" selection-end-line="216" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/accueilController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/accueilModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/footerView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="23" column="92" lean-forward="false" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/accueilView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1014">
-          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/headerView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4536">
-          <caret line="216" column="58" lean-forward="false" selection-start-line="216" selection-start-column="58" selection-end-line="216" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/accueilController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/accueilModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/footerView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="92" lean-forward="false" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/accueilView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="63" lean-forward="false" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -371,6 +502,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -378,6 +510,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -385,6 +518,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <marker date="1518441167857" expanded="true" signature="112:165" ph="SELECT * FRO... salarie" />
+            <marker date="1518441167857" expanded="true" signature="395:433" ph="SELECT * FRO... salarie" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -393,6 +530,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -400,6 +538,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -408,6 +547,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="943">
           <caret line="41" column="77" lean-forward="false" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -416,6 +556,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -423,6 +564,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -430,6 +572,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -437,6 +580,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <marker date="1518441167857" expanded="true" signature="112:165" ph="SELECT * FRO... salarie" />
+            <marker date="1518441167857" expanded="true" signature="395:433" ph="SELECT * FRO... salarie" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -444,6 +591,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -451,6 +599,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -466,12 +615,21 @@
     <entry file="file://$PROJECT_DIR$/HTML/light/index.php" />
     <entry file="file://$PROJECT_DIR$/HTML/light/index.php" />
     <entry file="file://$PROJECT_DIR$/HTML/light/model/co_bdd.php" />
+    <entry file="file://$PROJECT_DIR$/view/forgot-passwordView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/template.php" />
     <entry file="file://$PROJECT_DIR$/.htaccess" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -479,6 +637,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -486,6 +645,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -493,6 +653,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -500,6 +661,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/loginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -507,6 +677,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <marker date="1518441167857" expanded="true" signature="112:165" ph="SELECT * FRO... salarie" />
+            <marker date="1518441167857" expanded="true" signature="395:433" ph="SELECT * FRO... salarie" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sb-admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="459" column="32" lean-forward="false" selection-start-line="459" selection-start-column="32" selection-end-line="459" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -514,6 +696,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -521,68 +704,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/footerView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
+        <state relative-caret-position="359">
           <caret line="23" column="92" lean-forward="false" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/accueilController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/forgot-passwordView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/accueilModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="69">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding>
-            <marker date="1518795613811" expanded="true" signature="110:231" ph="SELECT F.con... participer" />
+            <marker date="1518451819431" expanded="true" signature="110:231" ph="SELECT F.con... participer" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/sb-admin.css">
+    <entry file="file://$PROJECT_DIR$/controller/accueilController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12220">
-          <caret line="470" column="1" lean-forward="false" selection-start-line="470" selection-start-column="1" selection-end-line="470" selection-end-column="1" />
+        <state relative-caret-position="161">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/headerView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/loginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="721">
+          <caret line="216" column="58" lean-forward="false" selection-start-line="216" selection-start-column="58" selection-end-line="216" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/accueilView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="74" column="61" lean-forward="false" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
+        <state relative-caret-position="644">
+          <caret line="31" column="63" lean-forward="false" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
           <folding />
         </state>
       </provider>
