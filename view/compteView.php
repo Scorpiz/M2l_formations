@@ -21,12 +21,12 @@
                         <li class="nav-item">
                             <a href="" data-target="#edit" data-toggle="tab" class="nav-link">Modifier</a>
                         </li>
-                        <?php if(isset($_SESSION['estChef']) && $_SESSION['estChef'] == 1){ ?> <!--Pour les chefs et admins seulement -->
+                        <?php if(isset($_SESSION['estChef']) && $_SESSION['estChef'] = 1){ ?> <!--Pour les chefs et admins seulement -->
                         <li class="nav-item">
                             <a href="" data-target="#gestion" data-toggle="tab" class="nav-link">Gestion Chef</a>
                         </li>
                         <?php } ?>
-                        <?php if(isset($_SESSION['estChef']) && $_SESSION['estChef'] == 2){ ?> <!--Pour les chefs et admins seulement -->
+                        <?php if(isset($_SESSION['estChef']) && $_SESSION['estChef'] = 2){ ?> <!--Pour les chefs et admins seulement -->
                             <li class="nav-item">
                                 <a href="" data-target="#gestion" data-toggle="tab" class="nav-link">Gestion Salariés</a>
                             </li>
@@ -44,7 +44,7 @@
                                     <p><?= $v['nbj']; ?> jours de formations restants</p>
                                 </div>
 
-                                <?php if(isset($_SESSION['estChef']) && $_SESSION['estChef'] > 0){ ?>
+                                <?php if(isset($_SESSION['estChef']) && $_SESSION['estChef'] >= 0){ ?>
                                 <div class="col-md-12">
                                     <h4 class="m-t-2"><span class="fa fa-clock-o ion-clock pull-xs-right"></span> Formations en cours</h4>
 
@@ -192,8 +192,8 @@
                                     </thead>
                                     <tbody>
 
-                                    <?php if($_SESSION['estChef'] = 1){
-                                        foreach($participer2 as $participe2 => $p) {
+
+                                        <?php foreach($participer2 as $participe2 => $p) {
                                             foreach ($salaries as $salarie => $s) { ?>
                                                 <tr>
                                                     <td><?= $s['nom']; ?></td>
@@ -216,34 +216,8 @@
                                                     </td>
                                                 </tr>
                                             <?php }
-                                        }
                                     } ?>
-                                    <?php if($_SESSION['estChef'] = 2){
-                                        foreach($participerAll as $participeAll => $p) {
-//                                            foreach ($salaries as $salarie => $s) { ?>
-                                                <tr>
-                                                    <td><?= $s['nom']; ?></td>
-                                                    <td><?= $s['prenom']; ?></td>
-                                                    <td><?= $p['contenu']; ?></td>
-                                                    <td><?= $p['date_deb']; ?></td>
-                                                    <td><?= $p['nb_j']; ?> jours</td>
-                                                    <td><?= $p['etat']; ?> </td>
-                                                    <td>
-                                                        <a href="index.php?p=gestionMembreAdmin&id_s=<?= $s["id_s"]; ?>&id_f=<?= $p["id_f"]; ?>"
-                                                        <button type="submit" class="btn btn-success"
-                                                                name="submitAccept" style="margin-bottom: 5px">Accepter
-                                                        </button>
-                                                        </a>
-                                                        <a href="index.php?p=gestionMembreAdmin&id_s=<?= $s["id_s"]; ?>&id_f=<?= $p["id_f"]; ?>"
-                                                        <button type="submit" class="btn btn-danger" name="submitRefus">
-                                                            Refuser
-                                                        </button>
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                            <?php }
-//                                        }
-                                    } ?>
+
                                     </tbody>
                                 </table>
                             </div>

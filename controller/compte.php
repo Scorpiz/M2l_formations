@@ -25,13 +25,13 @@ if(isset($_SESSION['connecte']) && $_SESSION['connecte'] == true) {
         }
     }
 
-    if(isset($_SESSION['estChef']) && $_SESSION['estChef'] = 1){ //Pour les chefs et admins seulement
+    if(isset($_SESSION['estChef']) && $_SESSION['estChef'] > 0){ //Pour les chefs et admins seulement
         $salaries = getMyEmployes();
         $participer2 = getParticiper();
     }
-    if (isset($_SESSION['estChef']) && $_SESSION['estChef'] = 2) { //Pour les admins seulement
-        $participerAll = getParticiperAll();
-    }
+//    if (isset($_SESSION['estChef']) && $_SESSION['estChef'] = 2) { //Pour les admins seulement
+//        $participerAll = getParticiperAll();
+//    }
 
 }else{ header("location:".BASE_URL."/login");} //redirection si non connecté
 require "view/compteView.php";
