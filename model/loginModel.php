@@ -1,6 +1,5 @@
 <?php
 
-require_once "co_bdd.php";
 
 function getUsers($email, $mdp){
     global $bdd;

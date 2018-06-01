@@ -1,11 +1,34 @@
 <?php
+session_start();
 
-    require "model/co_bdd.php";
+require "core/functions.php";
+$bdd = dbConnect('m2l');
 
-    if(!isset($_SESSION['id_s'])) {
+define('WEBROOT', dirname(__FILE__));
+define('BASE_URL', dirname($_SERVER['SCRIPT_NAME']));
+define('ROOT', dirname(WEBROOT));
+define('DS', DIRECTORY_SEPARATOR);
+define('CORE',ROOT.DS.'core');
 
-        header("Location:controller/loginController.php");
-    } else {
-        header("Location:controller/accueilController.php");
+    if(!isset($_GET['p']) || $_GET['p'] == "")
+    {
+        $page = 'login';
     }
+    else
+    {
+        if(!file_exists("controller/".$_GET['p'].".php"))
+        {
+            $page = '404';
+        }
+        else
+        {
+            $page = $_GET['p'];
+        }
+    }
+
+    ob_start();//permet de ne plus renvoyer de contenu au navigateur
+    require "controller/".$page.".php";
+    $content = ob_get_contents();//permet de recuperer le contenu executer depuis ob_start
+    ob_end_clean();
+    require "template.php";
 ?>

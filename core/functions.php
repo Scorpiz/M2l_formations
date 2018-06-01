@@ -103,3 +103,25 @@ function randomMdp(){
     $mdp = str_shuffle($mdp);
     return $mdp;
 }
+
+function getLevel($estChef){
+    global $bdd;
+    $user = $bdd->prepare("SELECT estChef FROM salarie WHERE estChef=:estChef");
+    $user->bindValue(":estChef", $estChef, PDO::PARAM_INT);
+    $user->execute();
+}
+
+function getCurrentParticiper() {
+    global $bdd;
+    $participer = $bdd->prepare("SELECT  F.contenu, F.date_deb, F.nb_j, P.etat, Pr.nom_p, Pr.prenom_p
+                                            FROM participer P, salarie S, formation F, prestataire Pr
+                                            WHERE P.id_s =".$_SESSION['id_s']." 
+                                            AND S.id_s = P.id_s
+                                            AND F.id_f = P.id_f
+                                            AND F.id_p = Pr.id_p");
+
+    $participer->execute();
+    return $participer->fetchAll();
+}
+
+
